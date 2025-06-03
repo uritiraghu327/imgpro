@@ -1,5 +1,5 @@
 resource "aws_instance" "ubuntu" {
-    ami = "ami-084568db4383264d4"
+    ami = "ami-054d6a336762e438e"
     instance_type = "t2.micro"
   subnet_id = aws_subnet.subnet.id
   vpc_security_group_ids = [aws_default_security_group.sg.id]
