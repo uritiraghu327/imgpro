@@ -8,10 +8,10 @@ packer {
 }
 
 source "amazon-ebs" "ubuntu" {
-  access_key                  = "AKIAX2SWBD6AGD3FP54O"
-  secret_key                  = "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"
-  vpc_id                      = "vpc-0aaa947c90d9c79d0"
-  subnet_id                   = "subnet-03cadaac2a492c89c"
+  access_key                  = "******************"
+  secret_key                  = "******************"
+  vpc_id                      = "******************"
+  subnet_id                   = "*******************"
   ami_name                    = "packer-ubsubnet-03cadaac2a492c89cuntu-{{timestamp}}"
   instance_type               = "t2.micro"
   region                      = "us-east-1"
